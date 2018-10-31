@@ -11,6 +11,19 @@
     <modules>
         <module>Singleton</module>
         <module>AbstractFactory</module>
+        <module>FactoryMethod</module>
+        <module>TemplateMethod</module>
+        <module>Builder</module>
+        <module>Proxy</module>
+        <module>Prototype</module>
+        <module>Mediator</module>
+        <module>Command</module>
+        <module>ChainOfResponsibility</module>
+        <module>Decorator</module>
+        <module>Strategy</module>
+        <module>Adaptor</module>
+        <module>Iterator</module>
+        <module>Composite</module>
     </modules>
 
 
