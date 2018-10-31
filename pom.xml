@@ -32,6 +32,11 @@
         <module>Interpreter</module>
         <module>FlyWeight</module>
         <module>Bridge</module>
+        <module>Specification</module>
+        <module>ObjectPool</module>
+        <module>Servant</module>
+        <module>Blackboard</module>
+        <module>NullObject</module>
     </modules>
 
 
