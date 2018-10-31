@@ -24,6 +24,14 @@
         <module>Adaptor</module>
         <module>Iterator</module>
         <module>Composite</module>
+        <module>Visitor</module>
+        <module>Process</module>
+        <module>Memento</module>
+        <module>Observer</module>
+        <module>State</module>
+        <module>Interpreter</module>
+        <module>FlyWeight</module>
+        <module>Bridge</module>
     </modules>
 
 
