@@ -22,5 +22,6 @@ public class Client {
         Human femaleYellowHuman=femaleFactory.createYellowHuman();
         femaleYellowHuman.getColor();
         femaleYellowHuman.getSex();
+
     }
 }
