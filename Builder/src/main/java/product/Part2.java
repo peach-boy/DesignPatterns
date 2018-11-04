@@ -1,0 +1,16 @@
+package product;
+
+/**
+ * @Description: TODO
+ * @Auther: ThomasWu
+ * @Date: 2018/11/4 21:56
+ * @Email:1414924381@qq.com
+ */
+public class Part2 implements Part {
+    final String name = "part2";
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
+}

@@ -36,36 +36,36 @@
         <module name="Visitor" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.8">
       <module name="AbstractFactory" target="1.8" />
       <module name="Adaptor" target="1.8" />
       <module name="Blackboard" target="1.8" />
-      <module name="Bridge" target="1.8" />
+      <module name="Bridge" target="1.5" />
       <module name="Builder" target="1.8" />
-      <module name="ChainOfResponsibility" target="1.8" />
-      <module name="Command" target="1.8" />
-      <module name="Composite" target="1.8" />
-      <module name="Decorator" target="1.8" />
-      <module name="DesignPatterns" target="1.8" />
-      <module name="FactoryMethod" target="1.8" />
-      <module name="FlyWeight" target="1.8" />
-      <module name="Interpreter" target="1.8" />
-      <module name="Iterator" target="1.8" />
-      <module name="Mediator" target="1.8" />
-      <module name="Memento" target="1.8" />
-      <module name="NullObject" target="1.8" />
-      <module name="ObjectPool" target="1.8" />
-      <module name="Observer" target="1.8" />
-      <module name="Process" target="1.8" />
-      <module name="Prototype" target="1.8" />
-      <module name="Proxy" target="1.8" />
-      <module name="Servant" target="1.8" />
-      <module name="Singleton" target="1.8" />
-      <module name="Specification" target="1.8" />
-      <module name="State" target="1.8" />
-      <module name="Strategy" target="1.8" />
-      <module name="TemplateMethod" target="1.8" />
-      <module name="Visitor" target="1.8" />
+      <module name="ChainOfResponsibility" target="1.5" />
+      <module name="Command" target="1.5" />
+      <module name="Composite" target="1.5" />
+      <module name="Decorator" target="1.5" />
+      <module name="DesignPatterns" target="1.5" />
+      <module name="FactoryMethod" target="1.5" />
+      <module name="FlyWeight" target="1.5" />
+      <module name="Interpreter" target="1.5" />
+      <module name="Iterator" target="1.5" />
+      <module name="Mediator" target="1.5" />
+      <module name="Memento" target="1.5" />
+      <module name="NullObject" target="1.5" />
+      <module name="ObjectPool" target="1.5" />
+      <module name="Observer" target="1.5" />
+      <module name="Process" target="1.5" />
+      <module name="Prototype" target="1.5" />
+      <module name="Proxy" target="1.5" />
+      <module name="Servant" target="1.5" />
+      <module name="Singleton" target="1.5" />
+      <module name="Specification" target="1.5" />
+      <module name="State" target="1.5" />
+      <module name="Strategy" target="1.5" />
+      <module name="TemplateMethod" target="1.5" />
+      <module name="Visitor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
