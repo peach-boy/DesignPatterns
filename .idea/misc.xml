@@ -6,6 +6,27 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Adaptor/pom.xml" />
+        <option value="$PROJECT_DIR$/Blackboard/pom.xml" />
+        <option value="$PROJECT_DIR$/Bridge/pom.xml" />
+        <option value="$PROJECT_DIR$/Builder/pom.xml" />
+        <option value="$PROJECT_DIR$/FlyWeight/pom.xml" />
+        <option value="$PROJECT_DIR$/Interpreter/pom.xml" />
+        <option value="$PROJECT_DIR$/Iterator/pom.xml" />
+        <option value="$PROJECT_DIR$/Mediator/pom.xml" />
+        <option value="$PROJECT_DIR$/Memento/pom.xml" />
+        <option value="$PROJECT_DIR$/NullObject/pom.xml" />
+        <option value="$PROJECT_DIR$/ObjectPool/pom.xml" />
+        <option value="$PROJECT_DIR$/Observer/pom.xml" />
+        <option value="$PROJECT_DIR$/Process/pom.xml" />
+        <option value="$PROJECT_DIR$/Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Servant/pom.xml" />
+        <option value="$PROJECT_DIR$/Specification/pom.xml" />
+        <option value="$PROJECT_DIR$/Visitor/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
