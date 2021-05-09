@@ -1,4 +1,4 @@
-import model.PayBO;
+package strategy;
 
 /**
  * @Auther: ThomasWu

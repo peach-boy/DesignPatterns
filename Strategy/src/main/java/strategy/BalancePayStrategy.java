@@ -1,4 +1,4 @@
-import model.PayBO;
+package strategy;
 
 /**
  * @Auther: ThomasWu
@@ -7,6 +7,7 @@ import model.PayBO;
  */
 public class BalancePayStrategy implements PayStrategy {
 
+    @Override
     public boolean pay() {
         System.out.println("余额支付--------------");
         return false;

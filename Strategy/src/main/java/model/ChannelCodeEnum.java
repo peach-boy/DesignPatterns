@@ -1,6 +1,6 @@
 package model;
 
-public enum ChannelEnum {
+public enum ChannelCodeEnum {
 
     ALIPAY(1, "支付宝"),
     WECHAT(2,  "微信"),
@@ -9,7 +9,7 @@ public enum ChannelEnum {
     private Integer channelCode;
     private String desc;
 
-    ChannelEnum(Integer channelCode, String desc) {
+    ChannelCodeEnum(Integer channelCode, String desc) {
         this.channelCode = channelCode;
         this.desc = desc;
     }

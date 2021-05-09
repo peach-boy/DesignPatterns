@@ -7,31 +7,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="TemplateMethod" />
+        <module name="Decorator" />
         <module name="Proxy" />
         <module name="FactoryMethod" />
         <module name="Composite" />
-        <module name="AbstractFactory" />
-        <module name="Decorator" />
-        <module name="Command" />
-        <module name="Singleton" />
         <module name="State" />
-        <module name="Strategy" />
+        <module name="Observer" />
         <module name="ChainOfResponsibility" />
+        <module name="Command" />
+        <module name="Strategy" />
+        <module name="Singleton" />
+        <module name="AbstractFactory" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="AbstractFactory" target="8" />
-      <module name="ChainOfResponsibility" target="8" />
-      <module name="Command" target="8" />
-      <module name="Composite" target="8" />
-      <module name="Decorator" target="8" />
-      <module name="DesignPatterns" target="8" />
-      <module name="FactoryMethod" target="8" />
-      <module name="Proxy" target="8" />
-      <module name="Singleton" target="8" />
-      <module name="State" target="8" />
-      <module name="Strategy" target="8" />
-      <module name="TemplateMethod" target="8" />
+      <module name="AbstractFactory" target="1.5" />
+      <module name="ChainOfResponsibility" target="1.5" />
+      <module name="Command" target="1.5" />
+      <module name="Composite" target="1.5" />
+      <module name="Decorator" target="1.5" />
+      <module name="DesignPatterns" target="1.5" />
+      <module name="FactoryMethod" target="1.5" />
+      <module name="Observer" target="1.7" />
+      <module name="Proxy" target="1.5" />
+      <module name="Singleton" target="1.5" />
+      <module name="State" target="1.5" />
+      <module name="Strategy" target="1.5" />
+      <module name="TemplateMethod" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

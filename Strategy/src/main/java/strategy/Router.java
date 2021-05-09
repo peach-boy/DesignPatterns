@@ -1,4 +1,6 @@
-import model.ChannelEnum;
+package strategy;
+
+import model.ChannelCodeEnum;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -18,10 +20,10 @@ public class Router {
 
     public static Router newInstance() {
         Router router = new Router();
-        router.payStrategyMap = new HashMap<Integer, PayStrategy>(3);
-        router.payStrategyMap.put(ChannelEnum.ALIPAY.getChannelCode(), new AlipayStrategy());
-        router.payStrategyMap.put(ChannelEnum.WECHAT.getChannelCode(), new WechatPayStrategy());
-        router.payStrategyMap.put(ChannelEnum.BALANCE.getChannelCode(), new BalancePayStrategy());
+        router.payStrategyMap = new HashMap<>(3);
+        router.payStrategyMap.put(ChannelCodeEnum.ALIPAY.getChannelCode(), new AlipayStrategy());
+        router.payStrategyMap.put(ChannelCodeEnum.WECHAT.getChannelCode(), new WechatPayStrategy());
+        router.payStrategyMap.put(ChannelCodeEnum.BALANCE.getChannelCode(), new BalancePayStrategy());
         return router;
     }
 
