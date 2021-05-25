@@ -21,7 +21,6 @@
         <module>Composite</module>
         <module>State</module>
         <module>Observer</module>
-        <module>Observer</module>
     </modules>
 
 

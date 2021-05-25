@@ -17,23 +17,21 @@ public class Client {
     public static void main(String[] args) {
 
         //case1 链表实现
-//       /* HandlerChain handlerChain = new HandlerChain();
-//        handlerChain.addHandler(new TimestampCheckHandler());
-//        handlerChain.addHandler(new VersionCheckHandler());
-//        handlerChain.addHandler(new SignCheckHandler());
-//        Boolean result = handlerChain.handle();
-//        System.out.println(result);*/
+
+        HandlerChain handlerChain = new HandlerChain();
+        handlerChain.addHandler(new TimestampCheckHandler());
+        handlerChain.addHandler(new VersionCheckHandler());
+        handlerChain.addHandler(new SignCheckHandler());
+        Boolean result = handlerChain.handle();
+        System.out.println(result);
 
 
         //case2 数组实现
-        ProcesserChain processerChain=new ProcesserChain();
+        ProcesserChain processerChain = new ProcesserChain();
         processerChain.addProcesser(new RedPackerProcesser());
         processerChain.addProcesser(new CashProcesser());
         processerChain.addProcesser(new CouponProcesser());
         processerChain.excute();
-
-
-
 
 
     }
