@@ -11,7 +11,19 @@
     <modules>
         <module>Singleton</module>
         <module>AbstractFactory</module>
+        <module>FactoryMethod</module>
+        <module>TemplateMethod</module>
+        <module>Proxy</module>
+        <module>Command</module>
+        <module>ChainOfResponsibility</module>
+        <module>Decorator</module>
+        <module>Strategy</module>
+        <module>Composite</module>
+        <module>State</module>
     </modules>
+
+
+
 
 
 </project>
